@@ -24,7 +24,11 @@ class Song
 
   def slef.artists
     @@artists.unique
-  end 
+  end
+
+  def self.genres
+    @@genres.unique
+  end
 
 
 
