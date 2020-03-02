@@ -23,10 +23,10 @@ class Song
   end
 
   def slef.artists
-    @@artists.unique
+    @@artists.uniq
   end
 
   def self.genres
-    @@genres.unique
+    @@genres.uniq
   end
 end
