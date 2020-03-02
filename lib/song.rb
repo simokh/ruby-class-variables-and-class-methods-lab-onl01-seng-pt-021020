@@ -22,7 +22,7 @@ class Song
     @@count
   end
 
-  def slef.artists
+  def self.artists
     @@artists.uniq
   end
 
