@@ -38,9 +38,10 @@ class Song
  
 
   def self.artist_count
-    artist_count = Hash.new(0)
-    @@artists.each {|genre| artist_count[genre] += 1}
-    artist_count
+    artist_count = Hash.new(0)  # the Hash method to create a new hash has to be capitalized otherwise 
+    #it wont work
+    @@artists.each {|genre| artist_count[genre] += 1} #iterating over @@artists array and turn it into a hash 
+    artist_count # returning the new created hash at line 41 
   end 
 end
 
